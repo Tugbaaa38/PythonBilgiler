@@ -58,7 +58,7 @@ kisi=input("Aramak istediginiz kisinin ismini yaziniz:")
 
 VarMi=kisi in kisilerim      #burada girilen ismin kisilerimde olup olmadigina bakiyorum.varsa true yokse false doner.
 if(VarMi==True):
-    cevap=kisilerim[kisi]    #kisilerim[kisi] girilen ismin value degerini ister ve cevaba atar.
-    print(f"{kisi} adli kisinin telefon numarasi:{cevap}")
+    numara=kisilerim[kisi]    #kisilerim[kisi] girilen ismin value degerini ister ve cevaba atar.
+    print(f"{kisi} adli kisinin telefon numarasi:{numara}")
 else:
     print("Kisi yok!")
