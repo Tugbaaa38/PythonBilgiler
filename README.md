@@ -1,0 +1,2 @@
+# PythonBilgiler
+Dictionary(sözlük)
